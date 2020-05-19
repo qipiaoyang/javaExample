@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fda68b2-05c7-4581-9753-6f9d03f1fe67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreshJuice$FreshJuiceSize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/FreshJuice$FreshJuiceSize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/FreshJuice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/ObjectClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
       <workItem from="1589621930463" duration="1373000" />
       <workItem from="1589624193135" duration="17000" />
       <workItem from="1589624260333" duration="635000" />
-      <workItem from="1589708424777" duration="8676000" />
+      <workItem from="1589708424777" duration="8780000" />
     </task>
     <servers />
   </component>
