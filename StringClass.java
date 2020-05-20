@@ -43,7 +43,6 @@ public class StringClass {
         String newBuffer = sBuffer.substring(0,3);
         System.out.println(newBuffer + "   subString的string");
 
-
     }
 }
 
