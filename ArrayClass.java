@@ -22,6 +22,19 @@ public class ArrayClass {
             total += myList[i];
         }
         System.out.println("总和为：" + total);
+
+        //  查找最大元素
+        double max = myList[0];
+        for (int i = 0; i< myList.length; i++) {
+            if(max < myList[i]) max = myList[i];
+        }
+        System.out.println("max is " + max);
+
+        double[] newList = { 1.9, 2.9, 3.4, 3.5 };
+        // 打印所有数组
+        for(double element: newList) {
+            System.out.println(element + "     element");
+        }
     }
 }
 
