@@ -2,6 +2,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class DateClass {
 
@@ -47,6 +48,32 @@ public class DateClass {
         System.out.println(day + "       当前星期几"); // 1代表星期日， 2代表星期一
 
 
+        String[] months = {
+                "Jan", "Feb", "Mar", "Apr",
+                "May", "Jun", "Jul", "Aug",
+                "Sep", "Oct", "Nov", "Dec"};
+        int year1;
+        // 初始化 Gregorian 日历
+        // 使用当前时间和日期
+        // 默认为本地时间和时区
+        GregorianCalendar gcalendar = new GregorianCalendar();
+        // 显示当前时间和日期的信息
+        System.out.print("Date: ");
+        System.out.print(months[gcalendar.get(Calendar.MONTH)]);
+        System.out.print(" " + gcalendar.get(Calendar.DATE) + " ");
+        System.out.println(year1 = gcalendar.get(Calendar.YEAR));
+        System.out.print("Time: ");
+        System.out.print(gcalendar.get(Calendar.HOUR) + ":");
+        System.out.print(gcalendar.get(Calendar.MINUTE) + ":");
+        System.out.println(gcalendar.get(Calendar.SECOND));
+
+        // 测试当前年份是否为闰年
+        if(gcalendar.isLeapYear(year1)) {
+            System.out.println("当前年份是闰年");
+        }
+        else {
+            System.out.println("当前年份不是闰年");
+        }
 
 
     }
