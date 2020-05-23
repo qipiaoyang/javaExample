@@ -11,7 +11,7 @@ public class BasicClass {
         System.out.println(name + "正在吃");
     }
     public void sleep() {
-        System.out.println(name + " 正在睡");
+        System.out.println(name + " 正在睡111");
     }
     public void introdution() {
         System.out.println("大家好！我是    " + id + "号" + name + "，，，，，，");
